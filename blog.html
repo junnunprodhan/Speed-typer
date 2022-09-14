@@ -19,13 +19,14 @@
             font-weight: bold;
             text-align: center;
         }
+        
     </style>
 </head>
 <body>
 <h1>All Blogs</h1>
 <section>
     <div>
-        <h3>1.Difference between LocalStorage sessionStorage </h3>
+        <h3>1.Difference between LocalStorage and sessionStorage </h3>
         <ul>
             <li>sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser is open, including page reloads and restores)</li>
             <li>localStorage does the same thing, but persists even when the browser is closed and reopened.</li>
@@ -35,8 +36,20 @@
         </ul>
     </div>
     <div>
-        <h3></h3>
+        <h3>Difference between global scope and block scope </h3>
         <ul></ul>
+    </div>
+    <div>
+        <h3></h3>
+        <ul>
+            <li>Basically, the difference between function scope and block scope is that in a language that uses function scope, any variables declared within a function are visible anywhere within that same function. But with block scope, the visibility of variables is confined to any given block (whether it's an if statement, where/for loop, etc) enclosed by curly braces.</li>
+            <li>
+                Block scopes are what you get when you use if statements, for statements, and the like. You can also use them stand-alone with a simple begin-end curly braces {}, not to be confused with empty object literals.
+            </li>
+            <li>The var keyword behaves differently in function scopes and block scopes. A variable declared with var in a function scope can’t be accessed outside that function scope.</li>
+            <li>A variable declared with var in a block scope is available outside of that block scope.</li>
+            
+        </ul>
     </div>
 
 </section>
